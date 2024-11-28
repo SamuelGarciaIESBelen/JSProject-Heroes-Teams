@@ -9,7 +9,6 @@ const teams = [
 		},
 		"active": true,
 		"heroes": [ 1, 2 ],
-		/* "heroes": [ 1, 2, 3, 4, 5, 6, 7, 8, 9, 10], */
 	},
 	{
 		"id": 2,
@@ -62,7 +61,7 @@ const heroes = {
     2: "Superman", 
     3: "Nightwing", 
     4: "Raven", 
-    5: "Captain America", 
+    5: "Capitán América", 
     6: "Spiderman", 
     7: "Wolverine", 
     8: "Cyclops",

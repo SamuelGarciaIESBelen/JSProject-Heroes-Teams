@@ -93,7 +93,7 @@ const heroes = [
 
 const teams = {
     1: "Justice League",
-    2: "Avengers",
+    2: "Vengadores",
     3: "Teen Titans",
     4: "X-Men",
 	5: "4 Fantásticos"
