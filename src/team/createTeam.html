@@ -26,28 +26,28 @@
 				<input type="text" hidden name="type-form" id="type-form" value="create">
 				<div>
 					<label for="id">ID</label> <!-- Esto será autoincremental -->
-					<input type="number" name="id" id="id">
+					<input type="number" name="id" id="id" required>
 				</div>
 				
 				<div>
 					<label for="teamName">Nombre</label>
-					<input type="text" name="teamName" id="teamName" placeholder="Justice League">
+					<input type="text" name="teamName" id="teamName" placeholder="Justice League" required>
 				</div>
 				
 				<div>
 					<label for="leader">Líder</label>
-					<input type="text" name="leader" id="leader" placeholder="Superman">
+					<input type="text" name="leader" id="leader" placeholder="Superman" required>
 				</div>
 				
 				<div>
 					<label for="location">Localización</label>
-					<input type="number" name="location" id="latitud" placeholder="Latitud" step="0.01">
-					<input type="number" name="location" id="longitud" placeholder="Longitud" step="0.01">
+					<input type="number" name="location" id="latitud" placeholder="Latitud" step="0.01" required>
+					<input type="number" name="location" id="longitud" placeholder="Longitud" step="0.01" required>
 				</div>
 
 				<div>
 					<label for="active">Activo actualmente</label>
-					<input type="radio" name="active" id="active" value="true">Sí
+					<input type="radio" name="active" id="active" value="true" required>Sí
 					<input type="radio" name="active" id="notActive" value="false">No
 				</div>
 
