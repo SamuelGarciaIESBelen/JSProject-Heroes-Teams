@@ -8,17 +8,18 @@ Have fun and hope you learn something about them!
 This is the project structure:<br>
 Have fun and hope you learn something about them!<br>
 
-<br>This is the project structure:<br><br>
-proyecto-team-heroes/<br>
-── src/<br>
-│ ├── team/<br>
-│ │ ├── Team.js # Clase Group<br>
-│ │ ├── teamController.js # Controlador para gestionar CRUD de teams<br>
-│ │ ├── teamsList.html # Página HTML para listar teams<br>
-│ │ ├── createTeam.html # Página HTML para crear un nuevo team<br>
-│ │ ├── editTeam.html # Página HTML para editar un team<br>
-│ │ └── team.css # CSS específico para las páginas de team<br>
-│ │<br>
+<br>This is the project structure:<br>
+```bash
+proyecto-team-heroes/
+── src/
+│ ├── team/
+│ │ ├── Team.js # Clase Group
+│ │ ├── teamController.js # Controlador para gestionar CRUD de teams
+│ │ ├── teamsList.html # Página HTML para listar teams
+│ │ ├── createTeam.html # Página HTML para crear un nuevo team
+│ │ ├── editTeam.html # Página HTML para editar un team
+│ │ └── team.css # CSS específico para las páginas de team
+│ │
 │ ├── hero/<br>
 │ │ ├── Hero.js # Clase Hero<br>
 │ │ ├── heroController.js # Controlador para gestionar CRUD de heroes<br>
@@ -38,7 +39,8 @@ proyecto-team-heroes/<br>
 ├── images/<br>
 ├── package.json # Información y dependencias del proyecto<br>
 └── README.md # Documentación del proyecto<br>
-<br><br>
+<br>
+```
 Next updates:<br>
 - A page for each hero and team with images<br>
 - A map pointing to the team location<br>
