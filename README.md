@@ -42,4 +42,5 @@ proyecto-team-heroes/<br>
 Next updates:<br>
 - A page for each hero and team with images
 - A map pointing to the team location<
-- A description of the hero and their powers<br>
+- A description of the hero and their powers 1<br>
+
